@@ -1,0 +1,21 @@
+{
+  "name": "email-generator-bot",
+  "version": "1.0.0",
+  "description": "A bot for generating emails from company names.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "mailer": "node utils/sendEmail.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.1",
+    "exceljs": "^4.4.0",
+    "mongodb": "^6.3.0",
+    "nodemailer": "^6.9.9",
+    "p-queue": "^8.0.1",
+    "playwright": "^1.41.1"
+  }
+}
